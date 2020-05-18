@@ -17,19 +17,17 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-To add me to your group click ["HERE"](t.me/SaitamaRobot?startgroup=botstart)
+Sup {}, my name is {}! 
+I am a Bhabhi jo sbko deti hai khushi .
+To add me to your group click ["HERE"](t.me/Bhabhijii_bot?startgroup=botstart)
 You can find my list of available commands with /help.
 
-[Saitama's Repo](github.com/AnimeKaizoku/SaitamaRobot) 
-See [Basic Configuration Checklist](t.me/OnePunchUpdates/29) on how to secure your group.
-The support group chat is at {}.
+I'm a custom version of SaitamaRobot, Made by @Mr_Tavish007
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm a Bhabhi For Fun and help admins manage their groups with My Boobs! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -47,9 +45,8 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+Bhabhiji is hosted on Heroku Servers and doesn't require any donations as of now but \
+You can donate to the poor peoples around the world.."""
 
 IMPORTED = {}
 MIGRATEABLE = []
